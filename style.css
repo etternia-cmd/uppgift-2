@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+
+.navigation {
+    font-size: 24px;
+}
+
+.navigation a {
+    background-color: white;
+    transition: 0.2s;    /*makes the transition cuter */
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;  /* remove the underline */
+    color: black;
+}
+
+.navigation a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);  /* makes it bigger when you hover over it */
+}
