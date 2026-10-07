@@ -7,7 +7,7 @@ body {
 .navigation {
     font-size: 38px;
     display: flex;
-    justify-content: center;    /* the flexbox here exists solely for the assignment, without it it would appear all the same */
+    justify-content: center;    /* the flexbox here exists solely for the assignment, without it it would appear all the same UPDATE: nvm its really useful*/
 }
 
 .navigation a {
@@ -121,7 +121,7 @@ a:hover {
 
 header {
     background-image: url("images/blackFlowers.jpg");
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     padding: 20px;
     margin-bottom: 10px;
     border: 2px solid black;
@@ -136,4 +136,41 @@ header h1 {
 header p {
     font-size: 30px;
     font-family: Georgia, serif; 
+}
+
+.final {
+    background-image: url("images/blackFlowers.jpg");
+    border: 2px solid black;
+    padding: 20px;
+    /* margin-bottom: auto; */
+    margin-top: 10px;
+    color: white;
+    font-size: 26px;
+}
+
+footer {
+    font-size: 20px;
+    border: 2px dotted black;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 650px;
+}
+@media (max-width: 800px) {   /* applies different CSS rules depending on the size ( [1.] in this case the width of the screen being 800px or less) */
+    .codingbox {
+        grid-template-columns: 1fr;   /* normally I have 2 1fr columns, this makes it have only 1 when [1.] */
+    }
+
+    .electrobox {
+        grid-template-columns: 1fr;    /* same here [1.] */
+    }
+
+    .electrobox img {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .navigation {
+        flex-wrap: wrap; /* if the flex items dont fit in one line, allow them to move to another line https://www.w3schools.com/cssref/css3_pr_flex-wrap.php */
+    }
 }
