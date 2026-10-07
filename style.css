@@ -2,8 +2,8 @@ body {
     background-image: 
     linear-gradient(rgba(78, 78, 78, 0.7), rgba(80, 80, 80, 0.7)),
     url("images/blackflowerbg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover;   /* make the bg cover the entire element */
+    background-attachment: fixed;  /* the background stays in the same place rather than scrolling down */
     color: black;
     text-align: center;
 }
