@@ -5,7 +5,7 @@ body {
 }
 
 .navigation {
-    font-size: 24px;
+    font-size: 38px;
 }
 
 .navigation a {
@@ -13,7 +13,7 @@ body {
     transition: 0.2s;    /*makes the transition cuter */
     display: inline-block;
     border: 2px solid black;
-    font-size: 24px;
+    font-size: 32px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;  /* remove the underline */
@@ -67,4 +67,69 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.electrobox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#electronics {
+    background-color: whitesmoke;
+    max-width: 1500px;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 22px;
+    margin-top: 15px;
+    /* margin: auto; */
+}
+
+.electrobox img {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 100px;
+    justify-self: center;
+}
+
+.lastpelectro {
+    text-align: center;
+    grid-column: 1 / 3;   /* I got helped here I want to point that out, it means "start at column 1 and end at column 3" */
+}
+
+#gaming {
+    background-color: whitesmoke;
+    max-width: 1500px;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+#future {
+    background-color: whitesmoke;
+    max-width: 1500px;
+    padding: 15px;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 22px;
+    margin-top: 15px;     /* I know every ID for each section is copy pasted but yeah its a placeholder if I decide to make them cuter */
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+header h1 {
+    font-size: 35px;
+    font-family: Georgia, serif; 
+}
+
+header p {
+    font-size: 30px;
+    font-family: Georgia, serif; 
 }
