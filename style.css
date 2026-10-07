@@ -6,6 +6,8 @@ body {
 
 .navigation {
     font-size: 38px;
+    display: flex;
+    justify-content: center;    /* the flexbox here exists solely for the assignment, without it it would appear all the same */
 }
 
 .navigation a {
@@ -118,10 +120,12 @@ a:hover {
 }
 
 header {
+    background-image: url("images/blackFlowers.jpg");
     background-color: whitesmoke;
     padding: 20px;
     margin-bottom: 10px;
     border: 2px solid black;
+    color: white;
 }
 
 header h1 {
