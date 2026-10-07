@@ -1,5 +1,9 @@
 body {
-    background-color: grey;
+    background-image: 
+    linear-gradient(rgba(78, 78, 78, 0.7), rgba(80, 80, 80, 0.7)),
+    url("images/blackflowerbg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     color: black;
     text-align: center;
 }
@@ -38,7 +42,7 @@ body {
 }
 
 #programming {
-    background-color: whitesmoke;
+    background: linear-gradient(white, #7c7878);
     max-width: 1500px;
     margin: auto;
     padding: 15px;
@@ -91,7 +95,7 @@ a:hover {
 }
 
 #electronics {
-    background-color: whitesmoke;
+    background: linear-gradient(white, #7c7878);
     max-width: 1500px;
     padding: 15px;
     margin: auto;
@@ -118,7 +122,7 @@ a:hover {
 }
 
 #gaming {
-    background-color: whitesmoke;
+    background: linear-gradient(white, #7c7878);
     max-width: 1500px;
     padding: 15px;
     margin: auto;
@@ -131,7 +135,7 @@ a:hover {
 }
 
 #future {
-    background-color: whitesmoke;
+    background: linear-gradient(white, #7c7878);
     max-width: 1500px;
     padding: 15px;
     margin: auto;
